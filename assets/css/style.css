@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+/* general css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  text-transform: capitalize;
+  color: #202428; 
+}
+p {
+  line-height: 1.8;
+  color: #707070;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section-title h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+/* welcome-hero */
+.welcome-hero {
+  background: url('../images/header-bg.png')no-repeat center;
+}
+
+.welcome-hero-content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.welcome-hero-left {
+  max-width: 675px;
+}
+
+.welcome-hero-left h4 {
+  font-size: 48px;
+}
+
+.welcome-hero-left h2 {
+  color: #ec4c7a; 
+  font-size: 90px;
+  font-weight: 800;
+}
+
+.welcome-hero-left p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.welcome-btn, .welcome-btn:hover, .welcome-btn:focus {
+  text-decoration: none;
+  background: linear-gradient(45deg, #ec5195, #ed4b73);
+  padding: 20px 50px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: .5s;
+}
+
+.welcome-btn:hover, .welcome-btn:focus {
+  background: linear-gradient(45deg, #ed4b73, #ec5195);
+}
+
+.welcome-hero-img img {
+  height: 800px;
+}
+
+
+/* welcome-hero */
+.biography-section {
+  background: url('../images/biography-bg.png')no-repeat center;
+}
+
+.biography-section .welcome-hero-left p {
+  margin: 40px 0 60px;
+}
+
+a.welcome-btn span {
+  text-transform: uppercase;
+}
+
+/* latest-work */
+.latest-work {
+  padding: 120px 0;
+  background: url('../images/latest-work-bg.png')no-repeat center;
+}
+
+.single-work-list a>img {
+  max-width: 500px;
+}
+
+ul.latest-work-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* footer-section */
+.footer-section {
+  background: url('../images/footer-bg.png')no-repeat center;
+}
+
+.footer-section-top {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.testimonial-title h2 {
+  font-size: 48px;
+  text-transform: initial;
+  margin-bottom: 80px;
+}
+
+.testimonial-author a {
+  font-size: 36px;
+  color: #202428;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.testimonial-author p {
+  font-size: 32px;
+}
+
+.testimonial-commment p {
+  font-size: 36px;
+  max-width: 990px;
+  margin: 60px auto;
+  color: #333;
+}
+
+.subscribe {
+  max-width: 1170px;
+  background: linear-gradient(45deg, #ec5195, #ed4b73);
+  padding: 80px 0;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.subscribe h4 {
+  font-size: 26px;
+  color: #fff;
+  text-transform: inherit;
+  margin-bottom: 30px;
+}
+
+.subscribe h2 {
+  font-size: 42px;
+  color: #fff;
+  text-transform: lowercase;
+}
+
+.footer-section-bottom {
+  padding: 40px 0;
+  text-align: center;
+}
