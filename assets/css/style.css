@@ -115,12 +115,40 @@ ul.latest-work-list {
   flex-wrap: wrap;
 }
 
+/* blog */
+.blog-img img {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.blog-content p {
+  margin: 15px 0;
+}
+
+.blog-content {
+  margin: 20px 0 0;
+}
+
+.blog-content a {
+  color: #202428;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.single-blog-list {
+  box-shadow: 0 0 10px rgba(0,0,0,.15);
+  padding: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 390px;
+}
+
 /* footer-section */
-.footer-section {
+.testimonial-subscribtion-section {
   background: url('../images/footer-bg.png')no-repeat center;
 }
 
-.footer-section-top {
+.testimonial-section-top {
   padding: 120px 0;
   text-align: center;
 }
